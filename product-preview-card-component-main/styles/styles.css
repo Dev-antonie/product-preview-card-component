@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --MONTSERRAT:"Montserrat";
+    --FRAUNCES:"Fraunces";
+    --Green-1:hsl(158, 36%, 37%);
+    --Green-2: hsl(158, 42%, 18%);
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+
+}
+body{
+    display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+    
+    background-color: var(--Cream);
+    
+}
+.product-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+    
+    
+}
+img{
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    width: 18rem;
+    height: 25rem;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 25rem;
+    background-color: var(--White);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    
+}
+.category{
+    font-family: var(--FRAUNCES);
+    margin-left:2rem;
+    color: var(--Grey);
+    letter-spacing: .3rem;
+    line-height: 4rem;
+}
+.title{
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+    font-family: var(--FRAUNCES);
+    font-weight: 900;
+    font-size: 1.8rem;
+
+}
+.description{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: var(--Grey);
+}
+.price{
+    word-spacing: .5rem;
+}
+.current-price{
+    font-family: var(--FRAUNCES);
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    padding: 1.5rem;
+    color: var(--Green-1);
+}
+.original-price{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+    width: 15rem;
+    margin-top: .2rem;
+    line-height: 2rem;
+    background-color: var(--Green-1);
+    border-radius: .5rem;
+    
+}
+
+
+/*.flexbox {
+    margin: 0 20rem ; 
+    display: flex;
+     flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.class1 {
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class2 {
+    background-color: green;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+.class3 {
+    background-color: yellow;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    flex-grow: 2;
+}
+.class4 {
+    background-color: blue;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+.class5 {
+    background-color: purple;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    flex-shrink: 5;
+}
+.class6 {
+    background-color: lime;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}*/
